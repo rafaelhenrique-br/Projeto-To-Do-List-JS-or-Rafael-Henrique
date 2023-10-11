@@ -1,0 +1,41 @@
+:root{
+  --color-dark: rgb(14, 14, 14);
+  --color-dark2: rgb(32, 32, 32);
+  --color-dark3: rgb(22, 22, 22);
+  --color-white: #fff; 
+  --color-green: rgb(103, 195, 50);
+  --color-green2: rgb(51, 149, 26);
+  --color-red: rgb(184, 40, 35);
+  --color-red2: rgb(146, 22, 17);
+}
+
+body{
+  background-color: var(--color-dark);
+  color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+}
+
+
+.item-lista {
+  margin: 5px 0;
+  padding: 5px;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.item-lista button {
+  background-color: var(--color-green);
+  color: #000; 
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+
